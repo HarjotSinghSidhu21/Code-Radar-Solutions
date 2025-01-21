@@ -9,7 +9,7 @@ int main() {
     int b;
     char c[100];
     scanf("%s %d",&a,&b);
-    scanf("%s",&c)
+    scanf("%s",&c);
     printf("Name: %s");
     printf("Age: %d");
     printf("Hobby: %s");
