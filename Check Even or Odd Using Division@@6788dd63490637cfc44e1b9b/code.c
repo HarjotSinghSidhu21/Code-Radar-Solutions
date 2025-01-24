@@ -5,7 +5,7 @@ int main() {
     if (a%2==0){
         print("Even");
     }
-    else{
+    else {
         print("Odd");
     }
     return 0;
