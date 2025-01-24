@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
 int main() {
     char a;
     scanf("%c",&a);
@@ -16,6 +14,5 @@ int main() {
     else{
         printf("Not an alphabet");
     }
-
     return 0;
 }
