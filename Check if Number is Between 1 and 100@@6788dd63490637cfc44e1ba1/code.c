@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    if (a>=1 && a<=100){
+    int A;
+    scanf("%d",&A);
+    if (A>=0 && A<=100){
         printf("In Range");
     }
     else{
