@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main() {
     int N;
-    scanf("%d\n",&N);
-    for(i=1,j=N;i<=N,j>=1;i++,j--){
-        print("* \n");
+    scanf("%d",&N);
+    for(int i=1;i<=N;i++){
+        for(int j=n;j>=1;j--){
+            print("* ");
+        }
     }
     return 0;
 }
