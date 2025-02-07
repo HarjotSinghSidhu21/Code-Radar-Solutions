@@ -16,6 +16,7 @@ int main() {
                 printf("0 ");
             }
         }
+        printf("\n");
     }
 
     return 0;
