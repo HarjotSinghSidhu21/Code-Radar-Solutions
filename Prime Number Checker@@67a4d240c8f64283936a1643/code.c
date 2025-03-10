@@ -3,6 +3,7 @@ int isPrime(int num){
     for(int i=2;i<num;i++){
         if(num%i==0){
             prime=0;
+            break;
         }
     }
     if(prime==1){
@@ -11,5 +12,4 @@ int isPrime(int num){
     else{
         printf("0");
     }
-
 }
