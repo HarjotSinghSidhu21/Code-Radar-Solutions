@@ -1,5 +1,5 @@
 #include<string.h>
-void insertionSort(char printArray[][100],int n){
+void insertionSort(char arr[][100],int n){
     for(int i=1;i<n;i++){
         int curr=arr[i];
         int prev=i-1;
