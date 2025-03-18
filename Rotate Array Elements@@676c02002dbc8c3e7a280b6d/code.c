@@ -13,7 +13,7 @@ int main(){
         brr[i]=arr[(i+k)%N];
     }
     for(int i=0;i<N;i++){
-        printf("%d\n",arr[i]);
+        printf("%d\n",brr[i]);
     }
     return 0;
 }
