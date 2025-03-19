@@ -1,4 +1,6 @@
 #include<stdio.h>
+void rotateRight(int arr[],int N,int K);
+void printArray(int arr[],int N);
 int main(){
     int N;
     scanf("%d",&N);
