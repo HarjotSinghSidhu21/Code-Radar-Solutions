@@ -10,9 +10,9 @@ int main(){
     int temp[N];
     for(int i=0;i<N;i++){
         sum+=arr[i];
-        arr[i]=sum;
+        temp[i]=sum;
     }
     for(int i=0;i<N;i++){
-        printf("%d ",arr[i]);
+        printf("%d ",temp[i]);
     }
 }
