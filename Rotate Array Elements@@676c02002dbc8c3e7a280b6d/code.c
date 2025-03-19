@@ -1,28 +1,32 @@
 #include<stdio.h>
-
-int main() {
+void rotate_once_right(int arr[],int N);
+int main(){
     int N;
-    scanf("%d", &N);  // Read size of array
-    int arr[N];  // Declare the array
-    int brr[N];  // Declare the array to store the rotated result
-
-    // Input the elements of the array
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &arr[i]);
+    scanf("%d",&N);
+    int arr[N];
+    for(int i=0;i<N;i++){
+        scanf("%d",&arr[i]);
     }
-
-    int k;
-    scanf("%d", &k);  // Read the number of positions to rotate
-
-    // Calculate the rotated array
-    for (int i = 0; i < N; i++) {
-        brr[i] = arr[(i + k) % N];
-    }
-
-    // Print the rotated array
-    for (int i = 0; i < N; i++) {
-        printf("%d\n", brr[i]);  // Print the rotated array, not the original
+    int K;
+    scanf("%d",&K);
+    rotate_right(arr,k,N);
+    for(int i=0;i<N;i++){
+        printf("%d",arr[i]);
     }
 
     return 0;
 }
+
+void rotate_once_right(int arr[],int N){
+    int temp=arr[N-1];
+    for(int i=(N-2);i>=0;i--){
+        arr[i+1]=a[i];
+    }
+    arr[0]=temp;
+}
+void rotate_right(int arr[],int K,int N){
+    for(int i=0;i<N;i++){
+        rotate_once_right(arr,N);
+    }
+}
+
