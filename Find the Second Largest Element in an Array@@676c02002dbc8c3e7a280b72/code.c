@@ -17,7 +17,7 @@ int main(){
             second=arr[i];
         }
     }
-    if(second==-1){
+    if(second == -1){
         printf("-1");
     }
     else{
