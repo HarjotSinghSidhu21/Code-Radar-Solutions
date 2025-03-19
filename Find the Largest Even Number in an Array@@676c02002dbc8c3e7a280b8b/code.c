@@ -6,14 +6,18 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int largest=arr[0];
+    int largest=-1;
     for(int i=0;i<N;i++){
-        if(arr[i]>largest){
-            if(arr[i]%2==0){
+        if(arr[i]%2==0){
+            if(arr[i]>largest){
                 largest=arr[i];
             }
         }
     }
+    if(largest==-1){
+        printf("-1");
+    }
+    else{
     printf("%d",largest);
-    
+    }
 }
