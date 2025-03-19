@@ -1,5 +1,6 @@
 #include<stdio.h>
 void rotate_once_right(int arr[],int N);
+void rotate_right(int arr[],int K,int N);
 int main(){
     int N;
     scanf("%d",&N);
@@ -9,7 +10,7 @@ int main(){
     }
     int K;
     scanf("%d",&K);
-    rotate_right(arr,k,N);
+    rotate_right(arr,K,N);
     for(int i=0;i<N;i++){
         printf("%d",arr[i]);
     }
