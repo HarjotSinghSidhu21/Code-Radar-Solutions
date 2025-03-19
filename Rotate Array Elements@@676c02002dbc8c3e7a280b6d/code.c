@@ -9,7 +9,7 @@ int main(){
     }
     int K;
     scanf("%d",&K);
-    rotateRight(arr;K,N);
+    rotateRight(arr,K,N);
     printArray(arr,N);
     return 0;
 }
