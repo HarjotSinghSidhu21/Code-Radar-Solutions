@@ -18,7 +18,7 @@ int main(){
             maximum=arr[i];
         }
     }
-    printf("%d",minimum);
+    printf("% ",minimum);
     printf("%d",maximum);
     return 0;   
 }
