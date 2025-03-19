@@ -20,6 +20,7 @@ int main(){
             max_freq=count;
             max_element=arr[i];
         }
-        printf("%d",max_element);
     }
+            printf("%d",max_element);
+
 }
