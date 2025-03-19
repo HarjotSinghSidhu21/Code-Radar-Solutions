@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    if(Acending(arr,N)){
+    if(Ascending(arr,N)){
         printf("Sorted");
     }
     else{
