@@ -30,7 +30,7 @@ void rotateright(int arr[],int N,int K){
     }
 void Printarray(int arr[],int N){
     for(int i=0;i<N;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
 
