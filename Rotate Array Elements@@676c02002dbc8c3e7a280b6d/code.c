@@ -1,5 +1,6 @@
 #include<stdio.h>
 void rotateRight(int arr[],int N,int K);
+void printArray(iny arr[],int N);
 int main(){
     int N;
     scanf("%d",&N);
@@ -17,7 +18,7 @@ void rotateRight(int arr[],int N,int K){
     K=K%N;
     int temp[N];
     for(int i=0;i<K;i++){
-        temp[i]=arr[n-k+i];
+        temp[i]=arr[N-k+i];
     }
     for(int i=0;i<N-K;i++){
         temp[K+i]=arr[i];
