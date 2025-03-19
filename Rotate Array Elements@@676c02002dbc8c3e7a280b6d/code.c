@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&K);
     rotate_right(arr,K,N);
     for(int i=0;i<N;i++){
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
 
     return 0;
