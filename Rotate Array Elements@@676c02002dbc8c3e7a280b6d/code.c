@@ -1,6 +1,6 @@
 #include<stdio.h>
 void rotateRight(int arr[],int N,int K);
-void printArray(iny arr[],int N);
+void printArray(int arr[],int N);
 int main(){
     int N;
     scanf("%d",&N);
@@ -27,7 +27,7 @@ void rotateRight(int arr[],int N,int K){
         arr[i]=temp[i];
     }
 }
-void printArray(iny arr[],int N){
+void printArray(int arr[],int N){
     for(int i=0;i<N;i++){
         printf("%d\n",arr[i]);
     }
