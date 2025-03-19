@@ -17,7 +17,7 @@ int main(){
 void rotateRight(int arr[],int N,int K){
     int temp[N];
     for(int i=0;i<K;i++){
-        temp[i]=arr[N-K+i];
+        temp[i]=arr[N- K+ i];
     }
     for(int i=0;i<N-K;i++){
         temp[K+i]=arr[i];
