@@ -16,6 +16,12 @@ int main(){
         }
     }
     int product=arr[N-2]*arr[N-1];
-    printf("%d",product);
+    int product2=arr[0]*arr[1];
+    if(product>product2){
+        printf("%d",product);
+    }
+    else{
+        printf("%d",product2);
+    }
     return 0;
 }
