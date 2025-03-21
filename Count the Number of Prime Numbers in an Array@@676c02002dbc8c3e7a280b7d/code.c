@@ -12,7 +12,7 @@ int main(){
         if(arr[i]<0){
             isPrime=0;
         }
-        for(int j=2;i<arr[i];i++){
+        for(int j=2;j<arr[i];j++){
         if(arr[i]%j==0){
             isPrime=0;
             break;
