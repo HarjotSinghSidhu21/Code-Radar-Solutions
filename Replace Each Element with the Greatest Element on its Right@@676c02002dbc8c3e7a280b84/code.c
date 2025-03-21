@@ -14,6 +14,7 @@ int main(){
             max_right=temp;
         }
     }
+    arr[N-1]=-1;
     for(int i=0;i<N;i++){
         printf("%d ",arr[i]);
     }
