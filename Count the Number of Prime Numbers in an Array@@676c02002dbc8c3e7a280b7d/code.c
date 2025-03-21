@@ -13,13 +13,14 @@ int main(){
             isPrime=0;
         }
         for(int j=2;j<arr[i];j++){
-        if(arr[i]%j==0){
-            isPrime=0;
+            if(arr[i]%j==0){
+             isPrime=0;
             break;
+        }
+        
         }
         if(isPrime){
             count+=1;
-        }
         }
     }
     printf("%d",count);
