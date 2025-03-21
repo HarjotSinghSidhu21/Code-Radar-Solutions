@@ -15,7 +15,7 @@ int main(){
             }
         }
     }
-    int product=arr[N]*arr[N-1];
+    int product=arr[N-2]*arr[N-1];
     printf("%d",product);
     return 0;
 }
