@@ -13,7 +13,7 @@ int main(){
 }
 int smallest(int arr[],int N){
     for(int i=0;i<N;i++){
-        while(arr[i]>0 && arr<=N && arr[arr[i]-1]!=arr[i]){
+        while(arr[i]>0 && arr[i]<=N && arr[arr[i]-1]!=arr[i]){
             int temp=arr[i];
             arr[i]=arr[arr[i]-1];
             arr[temp-1]=temp;
