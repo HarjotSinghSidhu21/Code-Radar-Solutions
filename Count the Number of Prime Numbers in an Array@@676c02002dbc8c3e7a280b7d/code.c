@@ -8,7 +8,10 @@ int main(){
     }
     int count=0;
     for(int i=0;i<N;i++){
-            int isPrime=1;
+        int isPrime=1;
+        if(arr[i]<0){
+            isPrime=0;
+        }
         for(int j=2;i<arr[i];i++){
         if(arr[i]%j==0){
             isPrime=0;
