@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int result=smallest(arr,n);
+    int result=smallest(arr,N);
     printf("%d",result);
 
 }
