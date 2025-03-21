@@ -17,7 +17,7 @@ int main(){
     temp[i]=sum;
     }
     for(int i=0;i<N;i++){
-        printf("%d",temp[i]);
+        printf("%d ",temp[i]);
     
     }
     return 0;
